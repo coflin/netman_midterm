@@ -25,7 +25,7 @@ def push_all_files():
     repo.index.commit("Committing all files in the working directory")
 
     # Push the changes to the remote repository
-    #origin = repo.remote(name='origin')
-    #origin.push()
+    origin = repo.remote(name='origin')
+    origin.push()
 
 push_all_files()
