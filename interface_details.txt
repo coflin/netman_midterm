@@ -1,4 +1,3 @@
-hello
 {
     "R1": {
         "addresses": {
